@@ -1,3 +1,3 @@
 {
-  "connectionString": "mongodb+srv://devuser:devpass@127.0.0.1/devdb?retryWrites=true&w=majority"
+  "connectionString": "mongodb://<devuser>:<devpassword>@<host>:<port>/?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false"
 }
