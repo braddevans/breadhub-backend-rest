@@ -4,7 +4,7 @@ const portainerTemplatesRoute = (app, fs) => {
     const dataPath = './data/portainer-templates.json';
 
     // READ
-    app.get('/templates/', (req, res) => {
+    app.get('/api/templates/', (req, res) => {
         fs.readFile(dataPath, 'utf8', (err, data) => {
             if (err) {
                 throw err;

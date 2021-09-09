@@ -25,7 +25,7 @@ const botStatRoutes = (app, fs) => {
     };
 
     // READ
-    app.get('/stats/', (req, res) => {
+    app.get('/api/bots/sion/stats/', (req, res) => {
         fs.readFile(dataPath, 'utf8', (err, data) => {
             if (err) {
                 throw err;
@@ -36,7 +36,7 @@ const botStatRoutes = (app, fs) => {
     });
 
     // CREATE
-    app.post('/stats/', (req, res) => {
+    app.post('/api/bots/sion/stats/', (req, res) => {
 
         readFile(data => {
                 data = req.body;
@@ -50,7 +50,7 @@ const botStatRoutes = (app, fs) => {
 
 
     // UPDATE
-    app.put('/stats/', (req, res) => {
+    app.put('/api/bots/sion/stats/', (req, res) => {
 
         readFile(data => {
                 data = req.body;
@@ -64,7 +64,7 @@ const botStatRoutes = (app, fs) => {
 
 
     // DELETE
-    app.delete('/stats/', (req, res) => {
+    app.delete('/api/bots/sion/stats/', (req, res) => {
 
         readFile(data => {
                 delete data;
