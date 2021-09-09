@@ -2,6 +2,8 @@
 *.iml
 /.idea/
 
+# environment variables
+/config.json
 
 # Logs
 logs

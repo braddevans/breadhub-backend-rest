@@ -1,3 +1,0 @@
-{
-  "connectionString": "mongodb+srv://admin:<password>@192.168.2.5/centralapi?retryWrites=true&w=majority"
-}
