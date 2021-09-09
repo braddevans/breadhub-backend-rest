@@ -1,0 +1,28 @@
+{
+  "guilds": 1,
+  "users": 1,
+  "voice": 0,
+  "exclusiveGuilds": 1,
+  "largeGuilds": 0,
+  "totalRam": 29.147136,
+  "clusters": [
+    {
+      "cluster": 0,
+      "shards": 1,
+      "guilds": 1,
+      "ram": 29.147136,
+      "voice": 0,
+      "uptime": 777004,
+      "exclusiveGuilds": 1,
+      "largeGuilds": 0,
+      "shardsStats": [
+        {
+          "id": 0,
+          "ready": true,
+          "latency": 107,
+          "status": "ready"
+        }
+      ]
+    }
+  ]
+}

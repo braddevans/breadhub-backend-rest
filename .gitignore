@@ -1,3 +1,8 @@
+# Intelij
+*.iml
+/.idea/
+
+
 # Logs
 logs
 *.log
@@ -102,3 +107,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn
+yarn.lock
